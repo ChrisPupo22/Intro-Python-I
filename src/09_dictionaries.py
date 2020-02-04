@@ -35,8 +35,7 @@ waypoints = [
 
 # Add a new waypoint to the list
 # YOUR CODE HERE
-waypoints["lat"] = 22
-waypoints["lon"] = -8
+
 
 
 print(waypoints)
@@ -47,3 +46,8 @@ print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+
+def print_waypoints():
+    for x in waypoints:
+        return x
+    return print_waypoints()

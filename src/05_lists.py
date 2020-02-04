@@ -18,20 +18,23 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
+print("popping 4:")
 x.pop(4)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
+print("inserting 99")
 x.insert(5, 99)
 print(x)
 
 # Print the length of list x
 # YOUR CODE HERE
+print("lenth of x:")
 print(len(x))
 
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-
+print("all values multiplied by 1000:")
 print(sum(x)* 1000)
