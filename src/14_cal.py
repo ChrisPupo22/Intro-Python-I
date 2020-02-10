@@ -49,7 +49,5 @@ elif len(args) == 3:
   month = int(args[1])
   year = int(args[2])
   tc.prmonth(year, month)
-
 else:
-    print("Input should be in this format: `14_cal.py month [year]`")
-​
+  print("Input should be in this format: `14_cal.py month [year]`")
