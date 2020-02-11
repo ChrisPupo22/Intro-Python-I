@@ -28,13 +28,14 @@ today = datetime.now()
 month = today.month
 year = today.year
 
-tc = TextCalendar()
+tc = Calendar()
 
 #Get the arguments
+val = input("Please enter the month and year wanted:")
 args = sys.argv
 
 #if there are no arguments
-if len(args) == 1: 
+if len(args) == 0: 
   #print calendar for current month
   tc.prmonth(year, month)
 
